@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-        xmlns:xs="http://www.w3.org/2001/XMLSchema"
-        elementFormDefault="unqualified"
-        attributeFormDefault="unqualified">
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:tns="https://rbreier.github.io/CSE445XML/nationalparks"
+    targetNamespace="https://rbreier.github.io/CSE445XML/nationalparks"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
 	
 	<xs:element name="NationalParks">
 		<xs:complexType>
@@ -55,4 +57,4 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-</schema>
+</xs:schema>
